@@ -74,7 +74,6 @@ export class Texture{
             gl.texParameteri(gl.TEXTURE_2D, gl.TEXTURE_WRAP_T, gl.CLAMP_TO_EDGE);
             gl.texParameteri(gl.TEXTURE_2D, gl.TEXTURE_MIN_FILTER, gl.LINEAR);
             gl.texParameteri(gl.TEXTURE_2D, gl.TEXTURE_MAG_FILTER, gl.LINEAR);
-            //https://gamedev.stackexchange.com/questions/147854/unpacking-sprite-sheet-into-2d-texture-array
         };
 
         this._isLoaded = true;
